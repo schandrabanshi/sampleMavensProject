@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-20T21:24:04 IST" name="Suite" finished-at="2022-08-20T21:26:08 IST" duration-ms="123850">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6572421]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-20T21:24:04 IST" name="Test" finished-at="2022-08-20T21:26:08 IST" duration-ms="123850">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:24:02 IST" name="setUp" finished-at="2022-08-20T21:24:04 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:24:04 IST" name="setUpClass" finished-at="2022-08-20T21:24:05 IST" duration-ms="687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5d221b20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:24:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-20T21:24:26 IST" duration-ms="21752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add first Mentee details using first name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add Mentee details"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:24:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-20T21:24:45 IST" duration-ms="18920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Enter first name then click on continue button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["WALK WITH ME home page and login."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:24:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-20T21:25:12 IST" duration-ms="26280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify COME ALIVE! session page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List of different sessions available in Walk With Me app."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:25:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-20T21:25:40 IST" duration-ms="28008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify NEW BEGINNINGS session page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List of different sessions available in Walk With Me app."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:25:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-20T21:26:05 IST" duration-ms="25326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify LOOK CLOSER session page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["List of different sessions available in Walk With Me app."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:26:05 IST" name="tearDownClass" finished-at="2022-08-20T21:26:08 IST" duration-ms="2836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Runner.TestRunner@6572421]" started-at="2022-08-20T21:26:08 IST" name="tearDown" finished-at="2022-08-20T21:26:08 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

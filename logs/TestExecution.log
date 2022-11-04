@@ -1,0 +1,32 @@
+2022-09-22 12:24:38.539 [main] INFO  Utilities.Logging - Stating Appium Server to default PORT.
+2022-09-22 12:24:50.105 [main] INFO  Utilities.Logging - Setting-Up Android Capabilities and launching app after installation.
+2022-09-22 12:25:23.892 [main] INFO  Utilities.Logging - Selendroid test app home page is opened.
+2022-09-22 12:25:23.900 [main] INFO  Utilities.Logging - Entering text.
+2022-09-22 12:25:25.461 [main] ERROR Utilities.Logging - Failed to enter text because of An unknown server-side error occurred while processing the command. Original error: org.eclipse.wst.xml.xpath2.processor.internal.StaticNsNameError: Unknown prefix: io.selendroid.testapp.
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'SAROJCHANDRA-01', ip: '172.20.10.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:\Users\sarojchandrabanshi..., appActivity: .HomeScreenActivity, appPackage: io.selendroid.testapp, databaseEnabled: false, desired: {app: C:\Users\sarojchandrabanshi..., appActivity: .HomeScreenActivity, appPackage: io.selendroid.testapp, deviceName: Android, platformName: android, platformVersion: 8.1}, deviceApiLevel: 27, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 8.1.0, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 2082, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f8182943-0a84-4e07-bedb-3019e037bbaf
+*** Element info: {Using=xpath, value=io.selendroid.testapp:id/my_text_field}
+2022-09-22 12:25:25.714 [main] INFO  Utilities.Logging - Clicked on displayed text view button.
+2022-09-22 12:25:26.429 [main] INFO  Utilities.Logging - Validated displayed text.
+2022-09-22 12:25:26.436 [main] INFO  Utilities.Logging - Removing app from Android.
+2022-09-22 12:25:28.671 [main] INFO  Utilities.Logging - App removed and driver closed.
+2022-09-22 12:25:28.815 [main] INFO  Utilities.Logging - Setting-Up Android Capabilities and launching app after installation.
+2022-09-22 12:25:41.266 [main] INFO  Utilities.Logging - Opened home page to app.
+2022-09-22 12:25:41.271 [main] INFO  Utilities.Logging - Adding Mentee details.
+2022-09-22 12:25:41.899 [main] INFO  Utilities.Logging - Entering username.
+2022-09-22 12:25:57.078 [main] INFO  Utilities.Logging - Entering email.
+2022-09-22 12:25:58.379 [main] INFO  Utilities.Logging - Entering password.
+2022-09-22 12:25:59.427 [main] INFO  Utilities.Logging - Entering name.
+2022-09-22 12:26:01.601 [main] INFO  Utilities.Logging - Selected option for adds.
+2022-09-22 12:26:10.597 [main] INFO  Utilities.Logging - Clicked on register to verify
+2022-09-22 12:26:10.614 [main] INFO  Utilities.Logging - Removing app from Android.
+2022-09-22 12:26:13.469 [main] INFO  Utilities.Logging - App removed and driver closed.
+2022-09-22 12:26:13.533 [main] INFO  Utilities.Logging - Setting-Up Android Capabilities and launching app after installation.
+2022-09-22 12:26:20.168 [main] ERROR Utilities.Logging - Failed to initialize Appium Driver.
+2022-09-22 12:26:20.179 [main] INFO  Utilities.Logging - Navigated to start page.
+2022-09-22 12:26:20.181 [main] ERROR Utilities.Logging - Come Alive! is not availabe: Cannot invoke "io.appium.java_client.AppiumDriver.findElementById(String)" because "Screens.Sessions.driver" is null
+2022-09-22 12:26:20.182 [main] INFO  Utilities.Logging - Logged-in into app successfully.
+2022-09-22 12:26:25.183 [main] INFO  Utilities.Logging - Stoping Appium server.
